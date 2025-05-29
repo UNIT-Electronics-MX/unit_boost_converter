@@ -49,7 +49,7 @@ The Boost Converter Module is a compact, adjustable **DC–DC** **step-up** (boo
 ## Documentation and Setup
 
 ### Overview
-This repository contains firmware and documentation for integrating the BMM150 magnetometer into your project. The examples provided demonstrate sensor configuration, data acquisition, and interfacing via both I²C and SPI.
+This repository contains firmware and documentation for integrating the Boost Converter into your project.
 
 ### Installation
 1. Clone the repository:

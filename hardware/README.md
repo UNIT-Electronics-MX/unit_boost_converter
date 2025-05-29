@@ -1,7 +1,7 @@
 # **Schematic**
 
 <div align="center">
-    <a href="#"><img src="resources/Schematics_icon.jpg" width="400px"><br/>Schematic</a>
+    <a href="#"><img src="resources/img/Schematics_icon.jpg" width="400px"><br/>Schematic</a>
     <br/>
 
 
@@ -10,7 +10,7 @@
 # **Pinout**
 
 <div align="center">
-    <a href="#"><img src="resources/boost_pinout.jpg" width="450px"><br/>Pinout</a>
+    <a href="#"><img src="resources/UE0087-PINOUT-UNIT_Boost-00X-EN.png" width="450px"><br/>Pinout</a>
 <br/>
 
 </div>

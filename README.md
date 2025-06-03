@@ -1,17 +1,27 @@
 # Boost Converter Module
 
-## Introduction
+
+<div align="center">
+    <a href="#"><img src="https://img.shields.io/badge/version-1.0-blue.svg" alt="Version"></a>
+    <a href="#"><img src="https://img.shields.io/badge/language-Python-lightgrey.svg" alt="Language"></a>
+    <a href="#"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
+    <br>
+</div>
+
 
 The Boost Converter Module is a compact, adjustable **DC–DC step-up (boost)** regulator designed to increase a lower input voltage to a higher output voltage. It is powered by the **TPS61023** high-efficiency switching regulator from **Texas Instruments**, enabling reliable operation even from low-voltage sources such as LiPo batteries or solar panels.  
 A multi-turn potentiometer is included for precise output voltage adjustment, making the module ideal for battery-powered applications and compact embedded systems.
 
 This makes it ideal for powering circuits from LiPo cells, USB power banks, solar panels, and other low-voltage sources in embedded projects and prototyping.
 
+
+
 <div align="center">
     <a href="#"><img src="hardware/resources/img/img_ue0087_boost_converter_1.png" width="350px"><br/>UNIT Boost Converter</a>
 </div>
 
----
+
+
 
 ## Applications
 
@@ -23,7 +33,6 @@ This makes it ideal for powering circuits from LiPo cells, USB power banks, sola
 | **Sensor modules**             | Power 5 V+ sensors from 3.3 V systems                     |
 | **DIY projects & prototyping** | Simple integration in breadboard or PCB-based designs     |
 
----
 
 ## Features
 
@@ -42,7 +51,7 @@ This makes it ideal for powering circuits from LiPo cells, USB power banks, sola
 | **Datasheet**                | [TPS61023 – Texas Instruments](https://www.ti.com/product/TPS61023)           |
 
 
----
+
 
 ## Quick Start
 
@@ -55,27 +64,11 @@ This makes it ideal for powering circuits from LiPo cells, USB power banks, sola
 3. **Test under load**  
    - Apply a typical load and verify the voltage remains stable.
 
----
+
 
 > **Tip:** Always start with the potentiometer turned fully counter-clockwise (lowest voltage) before applying power. Then slowly dial up to your target voltage while monitoring with a meter.
 
----
 
-## Documentation and Setup
-
-### Overview
-This repository contains firmware and documentation for integrating the Boost Converter into your project.
-
-### Installation
-1. Clone the repository:
-   ```
-   git clone git@github.com:UNIT-Electronics-MX/unit_boost_converter.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd ./unit_boost_converter
-   ```
-3. Follow the platform-specific setup instructions detailed in the project documentation.
 
 ## Support
 For any issues or further assistance, please open an issue on the GitHub repository or contact our support team.

@@ -13,7 +13,7 @@ Edita las secciones respetando el orden, sin eliminar los encabezados.
 -->
 <!-- logo -->
 
-# 
+# Boost Converter Module
 
 ![product](images/top.png)
 

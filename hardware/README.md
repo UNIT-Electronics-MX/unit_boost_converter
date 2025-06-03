@@ -1,40 +1,66 @@
 # **Schematic**
 
 <div align="center">
-    <a href="#"><img src="resources/img/Schematics_icon.jpg" width="400px"><br/>Schematic</a>
-    <br/>
-
-
+    <a href="resources/unit_sch_v_0_1_0_ue0087_tps61023_boost.pdf">
+        <img src="resources/Schematics_icon.jpg?raw=false" width="500px"><br/> 
+        Schematics (PDF)
+    </a>
 </div>
+
+---
 
 # **Pinout**
 
 <div align="center">
-    <a href="#"><img src="resources/UE0087-PINOUT-UNIT_Boost-00X-EN.png" width="450px"><br/>Pinout</a>
-<br/>
-
+    <a href="#">
+        <img src="resources/unit_pinout_ue0087_tps61023_boost_v_1_0_0_en.png" width="450px"><br/> 
+        Pinout Diagram
+    </a>
 </div>
 
-## **Descriptions**
+---
+
+## **Pin Descriptions**
 
 <div align="center">
 
-| Pin Group      | Label      | Description                                                                |
-|---------------:|:----------:|:---------------------------------------------------------------------------|
-| **Input**      | VIN        | Positive voltage input. Connect your supply positive here.                 |
-| **Input**      | GND Input  | Ground reference for input. Connect your supply ground here.               |
-| **Output**     | VOUT       | Boosted output positive. Delivers the adjusted higher voltage.             |
-| **Output**     | GND Output | Ground reference for output. Tie to system ground.                         |
-| **Adjustment** | POT        | Multi-turn potentiometer. Rotate to increase/decrease the output voltage.  |
-
+| **Pin Group**  | **Label**     | **Function**                                                               |
+|----------------|---------------|----------------------------------------------------------------------------|
+| **Input**      | VIN           | Positive input voltage. Connect your supply’s positive terminal here.     |
+| **Input**      | GND Input     | Ground reference for input. Connect the supply’s negative terminal here.  |
+| **Output**     | VOUT          | Boosted positive output. Provides regulated higher voltage.               |
+| **Output**     | GND Output    | Output ground. Connect to your load's ground or system ground.            |
+| **Adjustment** | POT           | Multi-turn potentiometer to set the output voltage precisely.             |
 
 </div>
+
+---
+
+# **Board Topology**
+
+<div align="center">
+    <img src="resources/unit_topology_v_0_1_0_ue0087_tps61023_boost?raw=false" width="800px"><br/><br/>
+
+| **Reference** | **Component**                 | **Description**                                     |
+|---------------|-------------------------------|-----------------------------------------------------|
+| **U1**        | TPS61023                      | Main boost converter IC by Texas Instruments        |
+| **RV1**       | Potentiometer (multi-turn)    | Allows precise adjustment of the output voltage     |
+| **L1**        | Power Indicator LED           | Lights up when input voltage is present             |
+| **F1**        | Resettable Fuse (1 A)         | Protects the circuit from overcurrent conditions    |
+| **JP1**       | VIN+ Pad                      | Positive terminal for power supply input            |
+| **JP2**       | VIN– Pad                      | Ground terminal for power supply input              |
+| **JP3**       | VOUT+ Pad                     | Positive terminal for boosted output                |
+| **JP4**       | VOUT– Pad                     | Ground terminal for boosted output                  |
+
+</div>
+
+---
 
 # **Dimensions**
 
 <div align="center">
-    <a href="#"><img src="hardware/resources/charger_pinout.jpg" width="500px"><br/>Dimensions</a>
-    <br/>
-
-
+    <a href="#">
+        <img src="hardware/resources/unit_dimension_v_0_1_0_ue0087_tps61023_boost.png" width="500px"><br/>
+        Mechanical Dimensions
+    </a>
 </div>

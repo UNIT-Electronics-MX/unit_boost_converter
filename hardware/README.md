@@ -2,7 +2,7 @@
 
 <div align="center">
     <a href="resources/unit_sch_v_0_1_0_ue0087_tps61023_boost.pdf">
-        <img src="resources/Schematics_icon.jpg?raw=false" width="500px"><br/> 
+        <img src="resources/img/Schematics_icon.jpg?raw=false" width="500px"><br/> 
         Schematics (PDF)
     </a>
 </div>
@@ -13,7 +13,7 @@
 
 <div align="center">
     <a href="#">
-        <img src="resources/unit_pinout_ue0087_tps61023_boost_v_1_0_0_en.png" width="450px"><br/> 
+        <img src="resources/unit_pinout_ue0087_tps61023_boost_v_1_0_0_en.jpg" width="450px"><br/> 
         Pinout Diagram
     </a>
 </div>
@@ -39,7 +39,7 @@
 # **Board Topology**
 
 <div align="center">
-    <img src="resources/unit_topology_v_0_1_0_ue0087_tps61023_boost?raw=false" width="800px"><br/><br/>
+    <img src="resources/unit_topology_v_0_1_0_ue0087_tps61023_boost.png?raw=false" width="800px"><br/><br/>
 
 | **Reference** | **Component**                 | **Description**                                     |
 |---------------|-------------------------------|-----------------------------------------------------|
@@ -60,7 +60,7 @@
 
 <div align="center">
     <a href="#">
-        <img src="hardware/resources/unit_dimension_v_0_1_0_ue0087_tps61023_boost.png" width="500px"><br/>
+        <img src="resources/unit_dimension_v_0_1_0_ue0087_tps61023_boost.png" width="500px"><br/>
         Mechanical Dimensions
     </a>
 </div>

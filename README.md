@@ -37,7 +37,7 @@ This makes it ideal for powering circuits from LiPo cells, USB power banks, sola
 | **Efficiency**                | Up to 96 % under optimal conditions                                            |
 | **Switching Frequency**       | ~2 MHz for reduced external component size                                    |
 | **Protections**               | Overcurrent (OCP), thermal shutdown, undervoltage lockout (UVLO)              |
-| **Form Factor**               | Breadboard-friendly 22 mm × 17 mm PCB                                         |
+| **Form Factor**               | Breadboard-friendly 20.3 mm × 17.78 mm PCB                                         |
 | **Applications**             | Ideal for LiPo boosts, USB power banks, solar panels, sensors, LEDs, prototyping |
 | **Datasheet**                | [TPS61023 – Texas Instruments](https://www.ti.com/product/TPS61023)           |
 

@@ -22,6 +22,8 @@ This makes it ideal for powering circuits from LiPo cells, USB power banks, sola
 
 
 
+<div align="center">
+
 ## Applications
 
 | **Applications**               | **Example**                                              |
@@ -31,6 +33,8 @@ This makes it ideal for powering circuits from LiPo cells, USB power banks, sola
 | **Portable electronics**       | Step-up for small regulated power in mobile designs       |
 | **Sensor modules**             | Power 5 V+ sensors from 3.3 V systems                     |
 | **DIY projects & prototyping** | Simple integration in breadboard or PCB-based designs     |
+
+</div>
 
 
 ## Features
@@ -76,4 +80,3 @@ For any issues or further assistance, please open an issue on the GitHub reposit
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Resources

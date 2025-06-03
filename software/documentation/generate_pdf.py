@@ -171,26 +171,26 @@ def render_latex(template_path, output_path, replacements):
         tex = tex.replace(f'<<{key}>>', value)
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(tex)
-
+        
 def compile_pdf(tex_file):
     try:
         for _ in range(2):
             result = subprocess.run(
                 ['pdflatex', '-interaction=nonstopmode', '-output-directory=build', tex_file],
                 capture_output=True,
-                text=True
+                text=True,
+                encoding='utf-8',
+                errors='replace'  # <- esta línea soluciona el problema
             )
             if result.returncode != 0:
                 print("⚠️ LaTeX compiló con errores:")
                 print(result.stdout)
                 print(result.stderr)
-                # aún así intentamos seguir si el PDF fue generado
                 if not os.path.exists("build/" + os.path.splitext(os.path.basename(tex_file))[0] + ".pdf"):
                     raise subprocess.CalledProcessError(result.returncode, result.args)
     except subprocess.CalledProcessError as e:
         print(f"❌ LaTeX falló con código {e.returncode}")
         raise
-
 
 
 def clean_aux_files(output_name):

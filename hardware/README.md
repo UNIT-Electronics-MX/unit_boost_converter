@@ -39,7 +39,7 @@
 # **Board Topology**
 
 <div align="center">
-    <img src="resources/unit_topology_v_0_1_0_ue0087_tps61023_boost.png?raw=false" width="800px"><br/><br/>
+    <img src="resources/unit_topology_v_0_1_0_ue0087_tps61023_boost.png?raw=false" width="500px"><br/><br/>
 
 | **Reference** | **Component**                 | **Description**                                     |
 |---------------|-------------------------------|-----------------------------------------------------|
@@ -60,7 +60,7 @@
 
 <div align="center">
     <a href="#">
-        <img src="resources/unit_dimension_v_0_1_0_ue0087_tps61023_boost.png" width="500px"><br/>
+        <img src="resources/unit_dimension_v_0_1_0_ue0087_tps61023_boost.png" width="600px"><br/>
         Mechanical Dimensions
     </a>
 </div>

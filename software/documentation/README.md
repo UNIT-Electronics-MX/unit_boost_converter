@@ -31,26 +31,25 @@ This makes it ideal for powering circuits from LiPo cells, USB power banks, sola
 
 ## Electrical Characteristics & Signal Overview
 
-- **Regulator IC:** Texas Instruments TPS61023 – high-efficiency boost converter
-- **Input Voltage Range:** 0.5 V to 5.5 V
-- **Start-up Voltage:** Operates from input as low as 0.7 V
-- **Adjustable Output:** Up to 5.5 V (via onboard multi-turn potentiometer)
-- **Output Current:** Up to 1 A (depending on input/output conditions)
-- **Efficiency:** Up to 96 % under optimal conditions
-- **Switching Frequency:** ~2 MHz for reduced external component size
-- **Protections:** Overcurrent (OCP), thermal shutdown, undervoltage lockout (UVLO)
-- **Form Factor:** Breadboard-friendly 20.3 mm × 17.78 mm PCB
-- **Applications:** Ideal for LiPo boosts, USB power banks, solar panels, sensors, LEDs, prototyping
-- **Datasheet:** [TPS61023 – Texas Instruments](https://www.ti.com/product/TPS61023)
-
+- Regulator IC: Texas Instruments TPS61023 – high-efficiency boost converter
+- Input Voltage Range: 0.5 V to 5.5 V
+- Start-up Voltage: Operates from input as low as 0.7 V
+- Adjustable Output: Up to 5.5 V (via onboard multi-turn potentiometer)
+- Output Current: Up to 1 A (depending on input/output conditions)
+- Efficiency: Up to 96 % under optimal conditions
+- Switching Frequency: ~2 MHz for reduced external component size
+- Protections: Overcurrent (OCP), thermal shutdown, undervoltage lockout (UVLO)
+- Form Factor: Breadboard-friendly 20.3 mm × 17.78 mm PCB
+- Applications: Ideal for LiPo boosts, USB power banks, solar panels, sensors, LEDs, prototyping
+- Datasheet: [TPS61023 – Texas Instruments](https://www.ti.com/product/TPS61023)
 
 ## Applications
 
-- **Battery-powered systems:** Boost 3.7 V LiPo to 5 V for microcontrollers or sensors.
-- **LED drivers:** Drive high-voltage LED strings from 3 V or 3.7 V input.
-- **Portable electronics:** Step-up for small regulated power in mobile designs.
-- **Sensor modules:** Power 5 V+ sensors from 3.3 V systems.
-- **DIY projects & prototyping:** Simple integration in breadboard or PCB-based designs.
+- Battery-powered systems: Boost 3.7 V LiPo to 5 V for microcontrollers or sensors.
+- LED drivers: Drive high-voltage LED strings from 3 V or 3.7 V input.
+- Portable electronics: Step-up for small regulated power in mobile designs.
+- Sensor modules: Power 5 V+ sensors from 3.3 V systems.
+- DIY projects & prototyping: Simple integration in breadboard or PCB-based designs.
 
 ## Features
 
@@ -63,18 +62,15 @@ This makes it ideal for powering circuits from LiPo cells, USB power banks, sola
 - Breadboard-friendly layout.
 - Ready-to-use for embedded development.
 
-
 ## Pin & Connector Layout
 
-| **Pin Group**  | **Label**     | **Function**                                                               |
-|----------------|---------------|----------------------------------------------------------------------------|
-| **Input**      | VIN           | Positive input voltage. Connect your supply’s positive terminal here.     |
-| **Input**      | GND Input     | Ground reference for input. Connect the supply’s negative terminal here.  |
-| **Output**     | VOUT          | Boosted positive output. Provides regulated higher voltage.               |
-| **Output**     | GND Output    | Output ground. Connect to your load's ground or system ground.            |
-| **Adjustment** | POT           | Multi-turn potentiometer to set the output voltage precisely.             |
-
-
+| Pin Group  | Label     | Function                                                              |
+|------------|-----------|-----------------------------------------------------------------------|
+| Input      | VIN       | Positive input voltage. Connect your supply’s positive terminal here. |
+| Input      | GND Input | Ground reference for input. Connect the supply’s negative terminal here. |
+| Output     | VOUT      | Boosted positive output. Provides regulated higher voltage.         |
+| Output     | GND Output| Output ground. Connect to your load's ground or system ground.        |
+| Adjustment | POT       | Multi-turn potentiometer to set the output voltage precisely.         |
 
 ## Settings
 

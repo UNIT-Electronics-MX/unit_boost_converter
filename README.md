@@ -21,6 +21,19 @@ This makes it ideal for powering circuits from LiPo cells, USB power banks, sola
 
 
 
+## Additional Resources
+
+<div align="center">
+
+| Resource              | Link                                                                                                                        |
+|:---------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
+| Wiki-UNIT Electronics | [Wiki - UNIT Electronics](https://unit-electronics-mx.github.io/wiki_uelectronics/es/docs/Modules/boost_converter/)                   |
+| Github Repository     | [Github Repository](https://github.com/UNIT-Electronics-MX/unit_boost_converter/tree/develop)                              |
+| Product Brief         | [Product brief](https://github.com/UNIT-Electronics-MX/unit_boost_converter/blob/develop/docs/unit_boost_converter_product_brief.pdf)                                                   |
+| Schematic             | [Schematic](https://github.com/UNIT-Electronics-MX/unit_boost_converter/tree/develop/hardware)                                                           |
+
+</div>
+
 
 <div align="center">
 

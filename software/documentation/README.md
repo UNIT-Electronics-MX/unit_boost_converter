@@ -87,7 +87,7 @@ This makes it ideal for powering circuits from LiPo cells, USB power banks, sola
 | Feature             | Description                                          |
 |---------------------|------------------------------------------------------|
 | Adjustable Output   | Set via onboard potentiometer                        |
-| Low-Voltage Start    | Operates from <1 V input for energy harvesting       |
+| Low-Voltage Start    | Operates from below 1 V input for energy harvesting |
 | Compact Footprint   | Fits in small enclosures and breadboards             |
 | Plug-and-Play       | No configuration or firmware required                |
 
@@ -103,11 +103,12 @@ This makes it ideal for powering circuits from LiPo cells, USB power banks, sola
 
 Works with:
 
-- Arduino interfaces (Uno, Mega, Nano)
+- Single-cell 3.7 V Li-Ion batteries
+
 
 ## Downloads
 
-- [Schematic PDF](docs/schematic.pdf)
+- [Schematic PDF](https://github.com/UNIT-Electronics-MX/unit_boost_converter/blob/main/hardware/resources/unit_sch_v_0_1_0_ue0087_tps61023_boost.pdf)
 
 ## Purchase
 
